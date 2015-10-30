@@ -30,7 +30,6 @@ describe ('Validation error', function() {
 	
     it('should have JSON pointer', function() {
 		var errs = person.jpErrors(bad);
-		console.log(errs);
 		errs.should.have.property('/dob');
     });
 
