@@ -1,0 +1,34 @@
+{
+  "name": "js-schema-6901",
+  "version": "0.1.0",
+  "description": "Enhances js-schema with JSON Pointer (RFC 6901)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardschneider/js-schema-6901.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "validation",
+    "pointer",
+    "6901"
+  ],
+  "author": "Richard Schneider <makaretu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardschneider/js-schema-6901/issues"
+  },
+  "homepage": "https://github.com/richardschneider/js-schema-6901",
+  "dependencies": {
+    "flat": "^1.6.0",
+    "js-schema": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
