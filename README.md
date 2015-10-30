@@ -7,10 +7,20 @@
 This package reports schema validation errors with a JSON Pointer to the offending field.
 
 ````
-var schema = ...
-var instance = ...
+var person = schema({
+	name: String,
+	dob: /\d{4}\-\d{2}\-\d{2}/,
+   children: Array.of(schema.self)
+});
 
-console.log(schema.errors(instance));
+var badboy = {
+	name: 'me', 
+	children: [
+		{dob: '2000-01-01', children: []}, 
+		{dob: '2000-1-01'}
+]};
+
+console.log(person.jpErrors(badboy));
 ````
 
 produces
