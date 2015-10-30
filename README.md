@@ -8,7 +8,7 @@ This package reports schema validation errors with a JSON Pointer to the offendi
 
 ## Getting started
 
-Install with `$ npm js-schema-6901`.  Bower will be coming soon.
+Install with `$ npm install js-schema-6901`.  Bower will be coming soon.
 
 ## Usage
 
