@@ -6,7 +6,15 @@
 
 This package reports schema validation errors with a JSON Pointer to the offending field by adding the `jpErrors` method to a schema.
 
+## Getting started
+
+Install with `$ npm js-schema-6901`.  Bower will be coming soon.
+
+## Usage
+
 ````
+require(js-schema-6901);
+
 var person = schema({
     name: String,
     dob: /\d{4}\-\d{2}\-\d{2}/,
@@ -36,4 +44,6 @@ produces
 ````
 
 # License
+The MIT license
+
 Copyright © 2015 Richard Schneider (makaretu@gmail.com)
