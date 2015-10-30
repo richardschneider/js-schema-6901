@@ -1,6 +1,6 @@
 {
   "name": "js-schema-6901",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enhances js-schema with JSON Pointer (RFC 6901)",
   "main": "index.js",
   "scripts": {
