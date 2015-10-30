@@ -4,7 +4,7 @@
 
 [js-schema](https://www.npmjs.com/package/js-schema) is simple and intuitive object validation library.  It provides support for [JSON Schema](http://json-schema.org/).
 
-This package reports schema validation errors with a JSON Pointer to the offending field.
+This package reports schema validation errors with a JSON Pointer to the offending field by adding the `jpErrors` method to a schema.
 
 ````
 var person = schema({
@@ -35,3 +35,5 @@ produces
 }
 ````
 
+# License
+Copyright © 2015 Richard Schneider (makaretu@gmail.com)
