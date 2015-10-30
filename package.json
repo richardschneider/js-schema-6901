@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/richardschneider/js-schema-6901",
   "dependencies": {
-    "flat": "^1.6.0",
+    "flat": "https://github.com/richardschneider/flat/tarball/master",
     "js-schema": "^1.0.1"
   },
   "devDependencies": {

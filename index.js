@@ -1,6 +1,6 @@
 'use strict';
 
-var flatten = require('./flatten');
+var flatten = require('flat');
 var schema = require('js-schema');
 
 /**
@@ -13,7 +13,6 @@ var jpErrors = function (errs)
 	if (!errs) return errs;
 	
 	var options = {
-		delimiter: '/',
 		prefix: '/'
 	};
 	return flatten(errs, options);
