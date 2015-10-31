@@ -6,7 +6,7 @@
 
 This package reports schema validation errors with a JSON Pointer to the offending field by adding the `jpErrors` method to a schema.
 
-## Getting started
+## Getting started [![npm version](https://badge.fury.io/js/js-schema-6901.svg)](https://badge.fury.io/js/js-schema-6901)
 
 Install with `$ npm install js-schema-6901`.  Bower will be coming soon.
 
