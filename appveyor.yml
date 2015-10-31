@@ -4,8 +4,6 @@ version: x-{build}
 # Install scripts. (runs after repo cloning)
 install:
   - choco install gitversion.portable -pre -y
-
-before_build:
   - npm install
   - ps: gitversion /output buildserver 
 
