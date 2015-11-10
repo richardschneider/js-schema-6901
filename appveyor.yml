@@ -5,7 +5,7 @@ version: x-{build}
 install:
   - choco install gitversion.portable -pre -y
   - npm install
-  - ps: gitversion /output buildserver 
+  - ps: gitversion /output buildserver >gitversion.log
 
 # Post-install test scripts.
 test_script:
