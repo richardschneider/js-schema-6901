@@ -1,4 +1,5 @@
-# js-schema-6901
+# js-schema-6901 [![Build status](https://ci.appveyor.com/api/projects/status/l79mft3t4nvi5ja6?svg=true)](https://ci.appveyor.com/project/richardschneider/js-schema-6901)
+
 
 [JSON Pointer](http://www.rfc-base.org/txt/rfc-6901.txt), RFC 6901, defines a string syntax for identifying a specific value within a JavaScript Object Notation (JSON) document.  For example, evaluating "foo/0/bar" against `{ foo: [ { bar: 1}, { bar: 2} }` returns 1;
 
