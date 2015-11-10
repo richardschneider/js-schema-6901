@@ -14,9 +14,7 @@ Install with `$ npm install js-schema-6901`.  Bower will be coming soon.
 ## Usage
 
 ````
-require('js-schema-6901');
-
-var schema = require('js-schema');
+var schema = require('js-schema-6901');
 var person = schema({
     name: String,
     dob: /\d{4}\-\d{2}\-\d{2}/,

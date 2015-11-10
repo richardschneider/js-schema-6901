@@ -23,4 +23,4 @@ schema.Schema.prototype.jpErrors = function (instance) {
 	return jpErrors(this.validate.errors(instance));
 };
  
-module.exports = jpErrors;
+module.exports = schema;

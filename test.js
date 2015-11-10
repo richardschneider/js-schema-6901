@@ -1,8 +1,8 @@
 'use strict';
 
-var schema = require('js-schema');
+var schema = require('./index');
 var should = require('should');
-require('./index');
+
 
 var person = schema({
 	name: String,
