@@ -43,4 +43,10 @@ describe ('Validation error', function() {
 		errs['/dob'].should.be.a.type('string');
     });
 
+    it('should allow js-schema options passed to jpErrors', function() {
+		var errs = person.jpErrors(bad, { prefix: '$' });
+		errs.should.have.property('$dob');
+    });
+
+	
 });

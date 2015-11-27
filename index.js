@@ -8,19 +8,19 @@ var schema = require('js-schema');
  *
  * @param(errs) errors from js-schema.
  */
-var jpErrors = function (errs)
+var jpErrors = function (errs, options)
 {
 	if (!errs) return errs;
-	
-	var options = {
-		prefix: '/'
-	};
+
+	options = options || {};
+	options.prefix = options.prefix || '/';
+
 	return flatten(errs, options);
 };
 
 schema.Schema.prototype.publicFunctions = ['jpErrors'];
-schema.Schema.prototype.jpErrors = function (instance) {
-	return jpErrors(this.validate.errors(instance));
+schema.Schema.prototype.jpErrors = function (instance, options) {
+	return jpErrors(this.validate.errors(instance), options);
 };
  
 module.exports = schema;
