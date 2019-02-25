@@ -29,7 +29,7 @@
     "js-schema": "^1.0.1"
   },
   "devDependencies": {
-    "mocha": "*",
+    "mocha": ">=6.0.2",
     "should": "*"
   }
 }
